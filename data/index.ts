@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Organisation", link: "#testimonials" },
+  { name: "Organisations", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -95,7 +95,7 @@ export const projects = [
   {
     id: 3,
     title: "The Muzic Blog",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "Created a vibrant online music blog to celebrate artists and foster community with engaging design and content, featuring personal favorites like Shawn Mendes.",
     img: "/muzic.png",
     iconLists: [
       "/html.svg",
@@ -109,7 +109,7 @@ export const projects = [
   {
     id: 4,
     title: "The Unity 360",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Designed a virtual reality application offering immersive journeys through diverse environments with 360-degree images and videos.",
     img: "/pana.png",
     iconLists: [
       "/csharp.svg",
@@ -233,4 +233,6 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/guruprasath-maheswaran-702634305/",
   },
+  
+  
 ];
