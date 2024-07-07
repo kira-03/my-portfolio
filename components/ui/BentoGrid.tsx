@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["MySQL", "Express", "NodeJS","Python"];
+  const rightLists = ["ReactJS", "NextJS", "Azure","Postman"];
 
   const [copied, setCopied] = useState(false);
 
@@ -67,7 +67,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "guruprasathmaheswaran.07@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };

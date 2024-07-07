@@ -1,14 +1,14 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Organisation", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I make client collaboration and open communication a priority.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I can accommodate communications across different time zones.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -30,7 +30,7 @@ export const gridItems = [
     id: 3,
     title: "My tech stack",
     description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-2 md:row-span-3",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -49,12 +49,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Community Skill-Sharing Platform!",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "",
     spareImg: "/grid.svg",
   },
   {
@@ -72,82 +72,98 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Trip Estimation Application",
+    des: "A full-stack web application for trip cost estimation during reimbursements, ensuring scalability with distributed systems concepts",
+    img: "/tripe.png",
+    iconLists: ["/re.svg", "/node.svg", "/tail.svg", "/azure.svg", "/post.svg"],
+    link: "https://github.com/kira-03/Trip-Estimator-WEB",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Explainable AI in Health Care",
+    des: "Contributed in a research project to enhance Convolutional Neural Networks (CNNs) efficiency and interpretability",
+    img: "/xai.png",
+    iconLists: [
+      "/py.svg",
+      "/tensor.svg",
+      "/anaconda.svg",
+      "/latex.svg",
+      "/pandas.svg",
+    ],
+    link: "https://github.com/kira-03/XAI_Project",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "The Muzic Blog",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    img: "/muzic.png",
+    iconLists: [
+      "/html.svg",
+      "/css.svg",
+      "/js.svg",
+      "/boot.svg",
+      "/codepen.svg",
+    ],
+    link: "https://github.com/kira-03/The_MuZiC_Blog",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "The Unity 360",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    img: "/pana.png",
+    iconLists: [
+      "/csharp.svg",
+      "/cardboard.svg",
+      "/unity.svg",
+      "/360.svg",
+      "/ps.svg",
+    ],
+    link: "https://github.com/kira-03/Unity360-Interactive-Panoramic-Worlds",
   },
 ];
 
 export const testimonials = [
   {
+    id: 1,
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Pursuing my passion for technology at Amrita Vishwa Vidyapeetham, one of India's premier institutions, where I'm honing my skills in Computer Science to create innovative solutions that make a difference!",
+    name: "Amrita Vishwa Vidyapeetham",
+    title: "OCT 2021 - JUNE 2025",
   },
   {
+    id: 2,
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Unleashing my organizational skills as a dedicated member of the Event Management Team at IETE Club, my college's prestigious technical community, where I'm instrumental in conceptualizing and executing impactful events that bring people together and foster innovation!",
+    name: "Institution Of Electronics and Telecommunication Engineers",
+    title: "NOV 2023 - PRESENT",
   },
   {
+    id: 3,
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborated with the esteemed SAP Labs as a mentee, where I spearheaded a high-performing cross-functional team of 6 to drive innovation, and successfully delivered a project that enhanced the functionality of SAP Concur, further solidifying my expertise in team leadership and technical excellence!",
+    name: "SAP Labs",
+    title: "FEB 2024 - APRIL 2024",
   },
   {
+    id: 4,
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Selected from over 83,000+ applicants, I'm thrilled to join Amazon Summer School, where I'll be mentored by Amazon Scientists and gain expertise in Machine Learning, Generative AI, and Large Language Models, accelerating my career growth and industry knowledge.",
+    name: "AMAZON SUMMER SCHOOL",
+    title: "JULY 2024 - PRESENT",
   },
 ];
 
-export const companies = [
+/*export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
+    name: "amazon",
+    img: "/IETE.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
+    name: "sap",
+    img: "/sap name.svg",
     nameImg: "/appName.svg",
   },
   {
@@ -164,38 +180,38 @@ export const companies = [
   },
   {
     id: 5,
-    name: "docker.",
+    name: "docker",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
-];
+];*/
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Engineer",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "XAI Researcher",
+    desc: "Researched on CNN efficiency and interpretability enhancements in healthcare.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Single Point Of Contact",
+    desc: "Served as SPOC, streamlined project communication and backlog for seamless info exchange and stakeholder satisfaction.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "GitHub Actions Workflow Developer",
+    desc: "I designed and implemented a GitHub Actions workflow to automate testing and CI/CD pipelines, ensuring efficient and reliable code deployment.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +221,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://www.github.com/kira-03",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/discord.svg",
+    link: "https://discord.com/users/guru7186",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/guruprasath-maheswaran-702634305/",
   },
 ];
