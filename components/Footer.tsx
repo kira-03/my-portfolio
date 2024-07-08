@@ -1,5 +1,5 @@
-import { FaLocationArrow } from "react-icons/fa6";
-
+import { FaFilePdf } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
@@ -11,7 +11,7 @@ const Footer = () => {
         <img
           src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50 "
+          className="w-full h-full opacity-50"
         />
       </div>
 
@@ -24,14 +24,24 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:guruprasathmaheswaran.07@gmail.com">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
+        <div className="flex gap-4">
+          <a href="mailto:guruprasathmaheswaran.07@gmail.com">
+            <MagicButton
+              title="Let's get in touch"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <MagicButton
+              title="Check out my resume"
+              icon={<FaFilePdf />}
+              position="right"
+            />
+          </a>
+        </div>
       </div>
+
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Guruprasath Maheswaran
