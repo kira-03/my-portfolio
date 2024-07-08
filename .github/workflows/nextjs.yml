@@ -12,18 +12,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          static_site_generator: next
+          node-version: '14'  # Adjust to match your Node.js version
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build and deploy
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Vercel
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPOSITORY_URL: ${{ secrets.GITHUB_REPOSITORY_URL }}
-        run: |
-          npm run build
-          npm run deploy
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}  # Ensure you have VERCEL_TOKEN secret set in GitHub repository secrets
+        run: npm run deploy
