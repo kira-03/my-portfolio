@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Build and Deploy
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # Adjust to match your Node.js version
+          node-version: '18.x'  # Set Node.js version to 18.x
 
       - name: Install dependencies
         run: npm install
@@ -25,5 +25,5 @@ jobs:
 
       - name: Deploy to Vercel
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}  # Ensure you have VERCEL_TOKEN secret set in GitHub repository secrets
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: npm run deploy
