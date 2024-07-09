@@ -75,7 +75,7 @@ export const projects = [
     title: "Trip Estimation Application",
     des: "A full-stack web application for trip cost estimation during reimbursements, ensuring scalability with distributed systems concepts",
     img: "/tripe.png",
-    iconLists: ["/re.svg", "/node.svg", "/tail.svg", "/azure.svg", "/post.svg"],
+    iconLists: ["/next.svg", "/node.svg", "/tail.svg", "/azure.svg", "/post.svg"],
     link: "https://github.com/kira-03/Trip-Estimator-WEB",
   },
   {

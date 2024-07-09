@@ -27,7 +27,7 @@ const RecentProjects = () => {
             key={item.id}
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] cursor-pointer"
           >
-            <PinContainer title="click">
+            <PinContainer title="Click to See More!">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <ImageSection item={item} />
               </div>
@@ -62,10 +62,20 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check GitHub
+                  <p className="lg:text-xl md:text-xs text-sm text-purple">
+                    Hover it
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    className="ml-2 text-purple"
+                  >
+                    <polyline points="12 2 15.09 8.26 21 12 15.09 15.74 12 22 8.91 15.74 3 12 8.91 8.26" />
+                  </svg>
                 </div>
               </div>
             </PinContainer>
