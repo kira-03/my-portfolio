@@ -70,7 +70,7 @@ const Footer = () => {
                 ${info.id === 1 ? "hover:bg-[#333]" : ""}  // GitHub
                 ${info.id === 2 ? "hover:bg-[#5865F2]" : ""} // Discord
                 ${info.id === 3 ? "hover:bg-[#0077B5]" : ""} // LinkedIn
-                ${info.id === 4 ? "hover:bg-[#F5A623]" : ""} // LeetCode
+                ${info.id === 4 ? "hover:bg-[#333]" : ""} // LeetCode
               `}
             >
               <Image
