@@ -75,7 +75,13 @@ export const projects = [
     title: "Trip Estimation Application",
     des: "A full-stack web application for trip cost estimation during reimbursements, ensuring scalability with distributed systems concepts",
     img: "/tripe.png",
-    iconLists: ["/next.svg", "/node.svg", "/tail.svg", "/azure.svg", "/post.svg"],
+    iconLists: [
+      "/next.svg",
+      "/node.svg",
+      "/tail.svg",
+      "/azure.svg",
+      "/post.svg",
+    ],
     link: "https://github.com/kira-03/Trip-Estimator-WEB",
   },
   {
@@ -233,6 +239,9 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/guruprasath-maheswaran-702634305/",
   },
-  
-  
+  {
+    id: 4,
+    img: "/leetcode.svg",
+    link: "https://leetcode.com/u/user1035Cw/",
+  },
 ];

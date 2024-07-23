@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaFilePdf } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from "@/data";
@@ -8,10 +9,12 @@ const Footer = () => {
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
+        <Image
           src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-50"
         />
       </div>
 
@@ -54,9 +57,29 @@ const Footer = () => {
               href={info.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              aria-label={`Visit my ${
+                info.id === 1
+                  ? "GitHub"
+                  : info.id === 2
+                  ? "Discord"
+                  : info.id === 3
+                  ? "LinkedIn"
+                  : "LeetCode"
+              } profile`}
+              className={`w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 rounded-lg border border-black-300 transition-transform duration-300 ease-in-out
+                ${info.id === 1 ? "hover:bg-[#333]" : ""}  // GitHub
+                ${info.id === 2 ? "hover:bg-[#5865F2]" : ""} // Discord
+                ${info.id === 3 ? "hover:bg-[#0077B5]" : ""} // LinkedIn
+                ${info.id === 4 ? "hover:bg-[#F5A623]" : ""} // LeetCode
+              `}
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
+              <Image
+                src={info.img}
+                alt="icons"
+                width={20}
+                height={20}
+                className="w-full h-full object-contain transition-transform duration-300 ease-in-out"
+              />
             </a>
           ))}
         </div>
