@@ -153,9 +153,9 @@ export const testimonials = [
   {
     id: 4,
     quote:
-      "Selected from over 83,000+ applicants, I'm thrilled to join Amazon Summer School, where I'll be mentored by Amazon Scientists and gain expertise in Machine Learning, Generative AI, and Large Language Models, accelerating my career growth and industry knowledge.",
+      "Selected from over 83,000+ applicants, participated in Amazon ML Summer School 2024, guided by Amazon Scientists. Gained expertise in Machine Learning, Generative AI, and Large Language Models, accelerating career growth and industry knowledge.",
     name: "AMAZON SUMMER SCHOOL",
-    title: "JULY 2024 - PRESENT",
+    title: "JULY 2024 - AUGUST 2024",
   },
 ];
 
