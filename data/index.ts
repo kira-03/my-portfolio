@@ -114,17 +114,17 @@ export const projects = [
   },
   {
     id: 4,
-    title: "The Unity 360",
-    des: "Designed a virtual reality application offering immersive journeys through diverse environments with 360-degree images and videos.",
-    img: "/pana.png",
+    title: "Gringotts Vault",
+    des: "A Google Drive-inspired file storage app with secure authentication, file management, and sharing features",
+    img: "/gringotts.png",
     iconLists: [
-      "/csharp.svg",
-      "/cardboard.svg",
-      "/unity.svg",
-      "/360.svg",
-      "/ps.svg",
+      "/react.svg",
+      "/next.svg",
+      "/tail.svg",
+      "/Appwrite.svg",
+      "/ts.svg",
     ],
-    link: "https://github.com/kira-03/Unity360-Interactive-Panoramic-Worlds",
+    link: "https://github.com/kira-03/Gringotts-Vault",
   },
 ];
 
