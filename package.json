@@ -12,6 +12,8 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
     "@react-three/drei": "^9.105.4",
     "@react-three/fiber": "^8.16.2",
     "@tabler/icons-react": "^3.1.0",
@@ -40,8 +42,10 @@
     "@types/react-dom": "^18",
     "@types/react-lottie": "^1.2.10",
     "autoprefixer": "^10.0.1",
+    "canvas": "^2.11.2",
     "eslint": "^8",
     "eslint-config-next": "14.1.4",
+    "node-loader": "^2.1.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
