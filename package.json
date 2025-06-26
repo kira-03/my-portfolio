@@ -7,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "vercel --prod",
-    "export": "next build && next export",
-    "deploy:gh": "npm run export && gh-pages -d out"
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
